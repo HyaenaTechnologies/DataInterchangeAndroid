@@ -1,4 +1,4 @@
-[Report]: https://github.com/HyaenaTechnologies/CalculateEngineAndroid/security/advisories
+[Report]: https://github.com/HyaenaTechnologies/DataInterchangeAndroid/security/advisories
 
 # Security Policy
 
