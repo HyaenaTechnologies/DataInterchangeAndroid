@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:appCategory="productivity"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/di"
+        android:label="Calculate Engine"
+        android:roundIcon="@mipmap/di_round"
+        android:supportsRtl="true">
+        <activity
+            android:colorMode="hdr"
+            android:directBootAware="true"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:name="dev.DataInterchange.MainActivity"
+            android:resizeableActivity="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
