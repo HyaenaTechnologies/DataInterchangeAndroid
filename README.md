@@ -32,6 +32,8 @@
   </h1>
 </a>
 
+[![Android Workflow](https://github.com/HyaenaTechnologies/DataInterchangeAndroid/actions/workflows/android.yml/badge.svg)](https://github.com/HyaenaTechnologies/DataInterchangeAndroid/actions/workflows/android.yml)
+
 # Data Interchange Android
 
 Data Interchange is a Network Application Programming Interface Platform
