@@ -73,7 +73,7 @@ android {
 
 dependencies {
     // Android
-    implementation("androidx.activity:activity-compose:1.9.2")
+    implementation("androidx.activity:activity-compose:1.9.3")
     implementation("androidx.compose.animation:animation:$androidxCompose")
     implementation("androidx.compose.compiler:compiler:$androidxComposeCompiler")
     implementation("androidx.compose.foundation:foundation:$androidxCompose")
