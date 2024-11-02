@@ -77,7 +77,7 @@ dependencies {
     implementation("androidx.compose.animation:animation:$androidxCompose")
     implementation("androidx.compose.compiler:compiler:$androidxComposeCompiler")
     implementation("androidx.compose.foundation:foundation:$androidxCompose")
-    implementation("androidx.compose.material3:material3:1.3.0")
+    implementation("androidx.compose.material3:material3:1.3.1")
     implementation("androidx.compose.runtime:runtime:$androidxCompose")
     implementation("androidx.compose.ui:ui:$androidxCompose")
     implementation("androidx.compose.ui:ui-text-google-fonts:$androidxCompose")
