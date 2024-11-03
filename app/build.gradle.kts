@@ -8,8 +8,6 @@ val androidxCompose: String = "1.7.2"
 val androidxComposeCompiler: String = "1.5.15"
 val androidxLifecycle: String = "2.8.6"
 val androidxNavigation: String = "2.8.1"
-val androidxTest: String = "1.6.1"
-val androidxTestServices: String = "1.5.0"
 val ioKtor: String = "3.0.1"
 val jetBrainsKotlin: String = "2.0.21"
 val orgJetBrainsKotlinXCoroutines: String = "1.9.0-RC.2"
@@ -118,14 +116,7 @@ dependencies {
     // Tests
     androidTestImplementation("androidx.compose.ui:ui-test:$androidxCompose")
     androidTestImplementation("androidx.navigation:navigation-testing:$androidxNavigation")
-    androidTestImplementation("androidx.test:core-ktx:$androidxTest")
-    androidTestImplementation("androidx.test:monitor:1.7.2")
-    androidTestImplementation("androidx.test:orchestrator:$androidxTestServices")
-    androidTestImplementation("androidx.test:rules:$androidxTest")
-    androidTestImplementation("androidx.test:runner:$androidxTest")
-    androidTestImplementation("androidx.test.services:storage:$androidxTestServices")
-    androidTestImplementation("androidx.test.services:test-services:$androidxTestServices")
-    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
+    androidTestImplementation("androidx.test:core-ktx:1.6.1")
     testImplementation("io.ktor:ktor-serialization-tests:$ioKtor")
     testImplementation("io.ktor:ktor-serialization-kotlinx-tests:$ioKtor")
     testImplementation("io.ktor:ktor-test-dispatcher:$ioKtor")
